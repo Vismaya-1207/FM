@@ -65,10 +65,12 @@ MODEL GRAPH:
 
 
 Program
+<img width="686" height="631" alt="image" src="https://github.com/user-attachments/assets/c8d1c992-256e-430a-9aef-813e109ab97a" />
 
 
 Output Waveform
 
+<img width="1735" height="999" alt="image" src="https://github.com/user-attachments/assets/a12c1477-5239-4608-a221-1e5a235b648d" />
 
 
 Tabulation
