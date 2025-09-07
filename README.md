@@ -65,7 +65,24 @@ MODEL GRAPH:
 
 
 Program
-<img width="686" height="631" alt="image" src="https://github.com/user-attachments/assets/c8d1c992-256e-430a-9aef-813e109ab97a" />
+```
+Am=6.8;
+Fm=529;
+Fs=52900;
+Ac=13.6;
+Fc=5290;
+b=2.5;
+t=0:1/Fs:2/Fm;
+m=Am*cos(2*3.14*Fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*Fc*t);
+subplot(3,1,2);
+plot(t,c);
+s=Ac *cos(2*3.14*Fc*t+b*sin(2*3.14*Fm*t));
+subplot(3,1,3);
+plot(t,s);
+```
 
 
 Output Waveform
@@ -75,17 +92,20 @@ Output Waveform
 
 Tabulation
 
+![WhatsApp Image 2025-09-07 at 20 40 24_ac3fa4f9](https://github.com/user-attachments/assets/776894d7-0ea6-40fe-bdcb-30d55487cf8a)
 
 
-Calculation
+Calculation:
+
+![WhatsApp Image 2025-09-07 at 20 36 55_1ae1eb72](https://github.com/user-attachments/assets/51cd6fc5-9126-4e3b-b4c0-ec022cec8d21)
 
 
 
-Frequency Deviation Practical = 
+Frequency Deviation Practical = 1254.13
 
-Modulation Index Practical	= 
+Modulation Index Practical	= 2.382
 
-Modulation Index Theoretical	=
+Modulation Index Theoretical	=2.5
 
 
 
